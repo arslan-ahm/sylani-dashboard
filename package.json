@@ -2,6 +2,9 @@
   "name": "sylani-dashboard",
   "version": "2.0.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
     "@heroicons/react": "^2.2.0",
