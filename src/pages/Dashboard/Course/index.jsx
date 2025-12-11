@@ -18,7 +18,7 @@ import {
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../../config/firebase";
 import { useEffect, useState } from "react";
-import { courseData } from "../../../Context/courseData";
+import { courseData } from "../../../contexts/courseData";
 import { doc, deleteDoc } from "firebase/firestore";
 import { ToastContainer, toast } from "react-toastify";
 import { Button } from "antd";

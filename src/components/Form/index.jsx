@@ -1,6 +1,6 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { courseData } from "../../Context/courseData";
+import { courseData } from "../../contexts/courseData";
 import { doc, setDoc } from "firebase/firestore";
 import {
   Button,

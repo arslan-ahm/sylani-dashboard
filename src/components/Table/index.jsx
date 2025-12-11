@@ -21,7 +21,7 @@ import { useContext, useEffect, useState } from "react";
 import { doc, deleteDoc } from "firebase/firestore";
 import { ToastContainer, toast } from "react-toastify";
 import { Button } from "antd";
-import { courseData } from "../../Context/courseData";
+import { courseData } from "../../contexts/courseData";
 
 export default function DefaultTable({ getStudentData }) {
   const TABLE_HEAD = [

@@ -5,7 +5,7 @@ import Table from "../../../components/Table";
 import { ApartmentOutlined, TeamOutlined } from "@ant-design/icons";
 import DialogSizes from "../../../components/DialogBox";
 import { db } from "../../../config/firebase";
-import { courseData } from '../../../Context/courseData'
+import { courseData } from '../../../contexts/courseData'
 import { collection, getDocs } from "firebase/firestore";
 
 function Student() {
